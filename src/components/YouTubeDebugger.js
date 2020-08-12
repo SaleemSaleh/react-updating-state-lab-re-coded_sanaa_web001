@@ -21,7 +21,7 @@ class YouTubeDebugger extends React.Component {
   bitrate = () => {
     this.setState({
         settings: Object.assign({}, this.state.settings,{ bitrate: 12})
-    
+
     });
   };
 
@@ -49,5 +49,5 @@ class YouTubeDebugger extends React.Component {
       );
     }
   }
-  
+
   export default YouTubeDebugger;
